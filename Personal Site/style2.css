@@ -1,0 +1,26 @@
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  min-height: 85vh;
+  font-family: "Sacramento", "Courier New", Courier, monospace;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #118521, #905bff, #3dfc57);
+  background-size: 180% 180%;
+  animation: gradient-animation 2s ease infinite;
+}
+.btn {
+  background-color: violet;
+  font-style: italic;
+}
+footer {
+  min-height: 10vh;
+ 
+}
+/* #118521, #905BFF, #3DFC57 
+  #A2FCF0, #FCE797, #FABEF9*/
